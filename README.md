@@ -13,3 +13,4 @@ Use a separat potentiometer in controlling each of the color of the RGB led (Red
 
 The code, image and video showcasing the RGB led being controlled are provided in the Homework1 file (in case you don,t want to download the video i have provided a youtube link: https://youtu.be/ouFXPSiqGA0).
 
+![image](https://user-images.githubusercontent.com/73032808/198399772-9b0410f8-1966-418c-9673-1a74f16d3940.jpg)
