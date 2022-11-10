@@ -11,7 +11,7 @@ Create a GitHub repository with a suitable description.
 
 A separat potentiometer controls each of the color of the RGB led (Red, Green and Blue). The control must be done with digital electronics (aka you must read the value of the potentiometer with Arduino, and write a mapped value to each of the pins connected to the led). The project uses 3 potentiometers, 1 RGB led, 1 bread board, 3 resistors (220 Ohms), 1 Arduino UNO board and connectivity wires. The code used to control the led is written in Arduino IDE 2.
 
-The code, image and video showcasing the RGB led being controlled are provided in the Homework1 file (in case you don,t want to download the video i have provided a youtube link: https://youtu.be/ouFXPSiqGA0).
+The code, image and video showcasing the RGB led being controlled are provided in the Homework1 file (in case you don't want to download the video i have provided a youtube link: https://youtu.be/ouFXPSiqGA0).
 
 ![image](https://user-images.githubusercontent.com/73032808/198399772-9b0410f8-1966-418c-9673-1a74f16d3940.jpg)
 
@@ -31,7 +31,7 @@ The system has the following states:
 
 Pressing the button in any state other than state 1 should NOT yield any actions.
 
-The code, image and video showcasing the traffic light simulation are provided in the Homework2 file (in case you don,t want to download the video i have provided a youtube link: https://youtube.com/shorts/NqkNPd55kYg).
+The code, image and video showcasing the traffic light simulation are provided in the Homework2 file (in case you don't want to download the video i have provided a youtube link: https://youtube.com/shorts/NqkNPd55kYg).
 
 ![e0e0e3af-a857-4441-a6c8-04ea7edfbb6a](https://user-images.githubusercontent.com/73032808/199785659-5a2c6bf2-a29e-4671-a4db-343906ebf0fb.jpg)
 
@@ -58,5 +58,6 @@ The movement rules used in this project:
 |        g        |   a  |  d   |    N/A  |   N/A |
 |        dp       |  N/A | N/A  |     c   |   N/A |
 
+The code, image and video showcasing the 7-segment display draw project are provided in the Homework3 file (in case you don't want to download the video i have provided a youtube link: https://youtu.be/scXDCKwbnkI).
 
-
+![15012780-c213-4455-a873-8fe02fcfb06a](https://user-images.githubusercontent.com/73032808/201104272-8b5c25c2-591d-4ab6-b66b-cd5cabcb6a6b.jpg)
