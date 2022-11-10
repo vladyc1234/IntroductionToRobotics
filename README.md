@@ -44,3 +44,17 @@ The system has the following states:
 1. **State 1** (default, but also initiated after a button press in State 2): Current position blinking. Can use the joystick to move from one position to neighbors. Short pressing the button toggles state 2. Long pressing the button in state 1 resets the entire display by turning all the segments OFF and moving the current position to thedecimal point.
 
 2. **State 2** (initiated after   button press in State 1): The current segment stops blinking, adopting the state of the segment before selection (ON or OFF). Toggling the X (or Y, you chose) axis should change the segment state from ON to OFF or from OFF to ON. Clicking the joystick should save the segment state and exit back to state 1.
+
+The movement rules used in this project:
+
+| Current segment | UP | DOWN | LEFT | RIGHT | 
+| --------------- | -- | ---- | ------- | ----- |
+|        a       | N/A  | g   |    f    |   b   |
+|        b       |  a   | g   |    f    |  N/A  |
+|        c       |  g   | d   |    e    |   dp  | 
+|        d       |   g  | N/A |     e   |    c  |
+|        e       |   g  |  d  |    N/A  |    c  | 
+|        f       |   a  |  g  |    N/A  |    b  |
+|        g       |   a  |  d  |    N/A  |   N/A |
+|        dp      |  N/A | N/A |     c   |   N/A |
+
