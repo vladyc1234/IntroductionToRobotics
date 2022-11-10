@@ -17,8 +17,6 @@ const int segSize = 8;
 const int noOfDigits = 8;
 
 byte swReading = LOW;
-byte lastSwReading = LOW;
-byte swState = LOW;
 
 volatile int blink = 0; // check if blink started
 volatile unsigned long blinkTimer = 0;
