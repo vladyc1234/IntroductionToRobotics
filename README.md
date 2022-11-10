@@ -9,7 +9,7 @@ Create a GitHub repository with a suitable description.
 
 ## Homework 1
 
-Use a separat potentiometer in controlling each of the color of the RGB led (Red, Green and Blue). The control must be done with digital electronics(aka you must read the value of the potentiometer with Arduino, and write a mapped value to each of the pins connected to the led). In order to complete this task I used 3 potentiometers, 1 RGB led, 1 bread board, 3 resistors (220 Ohms), 1 Arduino UNO board and connectivity wires. I implemented the code used to control the led in Arduino IDE 2.
+A separat potentiometer controls each of the color of the RGB led (Red, Green and Blue). The control must be done with digital electronics (aka you must read the value of the potentiometer with Arduino, and write a mapped value to each of the pins connected to the led). The project uses 3 potentiometers, 1 RGB led, 1 bread board, 3 resistors (220 Ohms), 1 Arduino UNO board and connectivity wires. The code used to control the led is written in Arduino IDE 2.
 
 The code, image and video showcasing the RGB led being controlled are provided in the Homework1 file (in case you don,t want to download the video i have provided a youtube link: https://youtu.be/ouFXPSiqGA0).
 
@@ -17,7 +17,7 @@ The code, image and video showcasing the RGB led being controlled are provided i
 
 ## Homework 2
 
-Building the traffic lights for a crosswalk. You will use 2 LEDs to represent the traffic lights for people (red and green), 3 LEDs to represent the traffic lights for cars (red, yellow and green) and 1 buzzer for visually impaired people.
+Building the traffic lights for a crosswalk. It uses 2 LEDs to represent the traffic lights for people (red and green), 3 LEDs to represent the traffic lights for cars (red, yellow and green) and 1 buzzer for visually impaired people.
 
 The system has the following states:
 
