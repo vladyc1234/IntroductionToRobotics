@@ -78,7 +78,7 @@ void setup()
 
 void loop() 
 {
-	xValue = analogRead(pinY);
+  xValue = analogRead(pinY);
   yValue = analogRead(pinX);
   swReading = digitalRead(pinSW);
 
