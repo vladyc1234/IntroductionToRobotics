@@ -47,14 +47,16 @@ The system has the following states:
 
 The movement rules used in this project:
 
-| Current segment | UP | DOWN | LEFT | RIGHT | 
-| --------------- | -- | ---- | ------- | ----- |
-|        a       | N/A  | g   |    f    |   b   |
-|        b       |  a   | g   |    f    |  N/A  |
-|        c       |  g   | d   |    e    |   dp  | 
-|        d       |   g  | N/A |     e   |    c  |
-|        e       |   g  |  d  |    N/A  |    c  | 
-|        f       |   a  |  g  |    N/A  |    b  |
-|        g       |   a  |  d  |    N/A  |   N/A |
-|        dp      |  N/A | N/A |     c   |   N/A |
+| Current segment | UP   | DOWN | LEFT    | RIGHT | 
+| --------------- | ---- | ---- | ------- | ----- |
+|        a        | N/A  | g    |    f    |   b   |
+|        b        |  a   | g    |    f    |  N/A  |
+|        c        |  g   | d    |    e    |   dp  | 
+|        d        |   g  | N/A  |     e   |    c  |
+|        e        |   g  |  d   |    N/A  |    c  | 
+|        f        |   a  |  g   |    N/A  |    b  |
+|        g        |   a  |  d   |    N/A  |   N/A |
+|        dp       |  N/A | N/A  |     c   |   N/A |
+
+
 
