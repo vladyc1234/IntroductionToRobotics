@@ -72,4 +72,4 @@ The system has the following states:
 
 2. **Second state**: in this state, the decimal point stays always on, no longer blinking and moving the joystick horizontally can no longer cycle through the 4  digits. Instead, moving the joystick vertically, increments or decrements the number on the current digit IN HEX (aka from  0 to F). Pressing the button again returns the display to the previous state. Each increment or decrement is done with a single joystick movement and holding the joystick up or down doesn't cycle continuously through the values.
 
-3. **Reset**: toggled by long pressing the buttononly in the first state.When resetting, all the digits go back to 0 and the current positionis set to the first (rightmost) digit, in the first state.
+3. **Reset**: toggled by long pressing the button only in the first state. When resetting, all the digits go back to 0 and the current position is set to the first (rightmost) digit, in the first state.
