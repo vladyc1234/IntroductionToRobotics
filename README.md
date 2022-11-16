@@ -61,3 +61,7 @@ The movement rules used in this project:
 The code, image and video showcasing the 7-segment display draw project are provided in the Homework3 file (in case you don't want to download the video i have provided a youtube link: https://youtu.be/scXDCKwbnkI).
 
 ![15012780-c213-4455-a873-8fe02fcfb06a](https://user-images.githubusercontent.com/73032808/201104272-8b5c25c2-591d-4ab6-b66b-cd5cabcb6a6b.jpg)
+
+## Homework 4
+
+A joystick moves through the 4 digit 7-segment displays digits, the button locks in on the current digit, while in the locked state moving the joystick up and down increments or decrements the number. Long pressing the button resets all the digit values and the current position to the first digit in the first state.
