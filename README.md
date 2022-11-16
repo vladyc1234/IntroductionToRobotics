@@ -64,4 +64,12 @@ The code, image and video showcasing the 7-segment display draw project are prov
 
 ## Homework 4
 
-A joystick moves through the 4 digit 7-segment displays digits, the button locks in on the current digit, while in the locked state moving the joystick up and down increments or decrements the number. Long pressing the button resets all the digit values and the current position to the first digit in the first state.
+A joystick moves through the 4 digit 7-segment displays digits, the button locks in on the current digit, while in the locked state moving the joystick up and down, increments or decrements the number. Long pressing the button resets all the digit values and the current position to the first digit in the first state.
+
+The system has the following states:
+
+1. **First state**: moving the joystick horizontally cycles through the 4 digits; moving it vertically does nothing. A blinking decimal point shows the current digit position. When pressing the button, it locks in on the selected digit and enters the second state.
+
+2. **Second state**: in this state, the decimal point stays always on, no longer blinking and moving the joystick horizontally can no longer cycle through the 4  digits. Instead, moving the joystick vertically, increments or decrements the number on the current digit IN HEX (aka from  0 to F). Pressing the button again returns the display to the previous state. Each increment or decrement is done with a single joystick movement and holding the joystick up or down doesn't cycle continuously through the values.
+
+3. **Reset**: toggled by long pressing the buttononly in the first state.When resetting, all the digits go back to 0 and the current positionis set to the first (rightmost) digit, in the first state.
