@@ -84,14 +84,30 @@ This code is a  semi-complete game of Snake written in Arduino. It uses the LedC
 
 Hardware used:
 
-  1. 1 x Arduino board 
-  2. 1 x LED matrix, 
-  3. 1 x LCD1602 screen
-  4. 1 x joystick
-  5. 1 x buzzer
-  6. 1 x breadboard
-  7. wires per logic
-  8. resistors per logic
+  * 1 x Arduino board 
+  * 1 x LED matrix, 
+  * 1 x LCD1602 screen
+  * 1 x joystick
+  * 1 x buzzer
+  * 1 x breadboard
+  * wires per logic
+  * resistors per logic
+
+Controls:
+
+  – Game:
+  
+    * joystick UP the snake moves UP
+    * joystick DOWN the snake moves DOWN
+    * joystick RIGHT the snake moves RIGHT
+    * joystick LEFT the snake moves LEFT
+  
+  – Menu:
+  
+    * to scroll UP/DOWN move the joystick UP/DOWN
+    * to select from menu move the joystick RIGHT
+    * to leave the selected menu move the joystick LEFT
+    * to save a setting or confirm something press the joystick BUTTON
   
 Feature list:
 
@@ -112,6 +128,7 @@ Feature list:
     
 The code, image and video are provided in the Homework5 file (in case you don't want to download the video I have provided a youtube link: https://youtu.be/SFbZJ5yLgwg).
 
+![2bdeeae1-fce2-4a6e-b338-6b7a9872506d](https://user-images.githubusercontent.com/73032808/206511658-c8b15ce9-5da4-41fa-b1b5-26e158cfbee7.jpg)
 
 
 
