@@ -95,17 +95,19 @@ Hardware used:
   
 Feature list:
 
-  – Start Game:
+  – Start Game: 
+  
     ∗ Shown details while playing
     ∗ Enter name for highscore and the end of the game
   – Highscore: 
+  
     * top 6 in eeprom with name and score
     ∗ Reset high scores button in settings
   – Settings:
+  
     ∗ LCD contrast control (saved in eeprom)
     ∗ LCD brightness control (saved in eeprom)
-    ∗ Matrix brightness control (saved in eeprom). Lights up the entire matrix
-    when changing it.
+    ∗ Matrix brightness control (saved in eeprom). Lights up the entire matrix when changing it.
     ∗ Sound control on/off (saved in eeprom)
     
 The code, image and video are provided in the Homework5 file (in case you don't want to download the video I have provided a youtube link: https://youtu.be/SFbZJ5yLgwg).
