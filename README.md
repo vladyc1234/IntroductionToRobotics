@@ -77,3 +77,39 @@ The system has the following states:
 The code, image and video showcasing the 4 digit 7-segment display project are provided in the Homework4 file (in case you don't want to download the video I have provided a youtube link: https://youtu.be/SFbZJ5yLgwg).
 
 ![7e88f391-d83f-4784-a971-bc5e46b09a1e](https://user-images.githubusercontent.com/73032808/202317505-cf82e127-5ed3-4ddf-8bc1-35596af162cd.jpg)
+
+## Homework 5
+
+This code is a  semi-complete game of Snake written in Arduino. It uses the LedControl library to display the game on a matrix of LEDs, and it uses the LiquidCrystal library to display the text menu on an LCD screen. The code uses the EEPROM to store settings and high scores. The game can be controlled using a joystick and the menu can be navigated using the said joystick and by using its button. When the button is pressed, settings or the name and highscore are saved in the EEPROM
+
+Hardware used:
+
+  1. 1 x Arduino board 
+  2. 1 x LED matrix, 
+  3. 1 x LCD1602 screen
+  4. 1 x joystick
+  5. 1 x buzzer
+  6. 1 x breadboard
+  7. wires per logic
+  8. resistors per logic
+  
+Feature list:
+
+  – Start Game:
+    ∗ Shown details while playing
+    ∗ Enter name for highscore and the end of the game
+  – Highscore: 
+    * top 6 in eeprom with name and score
+    ∗ Reset high scores button in settings
+  – Settings:
+    ∗ LCD contrast control (saved in eeprom)
+    ∗ LCD brightness control (saved in eeprom)
+    ∗ Matrix brightness control (saved in eeprom). Lights up the entire matrix
+    when changing it.
+    ∗ Sound control on/off (saved in eeprom)
+    
+The code, image and video are provided in the Homework5 file (in case you don't want to download the video I have provided a youtube link: https://youtu.be/SFbZJ5yLgwg).
+
+
+
+
