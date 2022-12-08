@@ -126,7 +126,7 @@ Feature list:
     ∗ Matrix brightness control (saved in eeprom). Lights up the entire matrix when changing it.
     ∗ Sound control on/off (saved in eeprom)
     
-The code, image and video are provided in the Homework5 file (in case you don't want to download the video I have provided a youtube link: https://youtu.be/SFbZJ5yLgwg).
+The code, image and video are provided in the Homework5 file (in case you don't want to download the video I have provided a youtube link: https://youtu.be/uyUAA2wrnn8).
 
 ![2bdeeae1-fce2-4a6e-b338-6b7a9872506d](https://user-images.githubusercontent.com/73032808/206511658-c8b15ce9-5da4-41fa-b1b5-26e158cfbee7.jpg)
 
